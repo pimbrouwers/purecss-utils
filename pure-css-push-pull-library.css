@@ -38,16 +38,6 @@ div[class*="pure-pull"], div[class*="pure-push"]{
         *left: 19.969%
     }
 
-    .pure-push-sm-1-5 {
-        left: 20%;
-        *left: 19.969%
-    }    
-
-    .pure-push-sm-5-24 {
-        left: 20.8333%;
-        *left: 20.8023%
-    }
-
     .pure-push-sm-5-24 {
         left: 20.8333%;
         *left: 20.8023%
@@ -183,16 +173,6 @@ div[class*="pure-pull"], div[class*="pure-push"]{
     .pure-pull-sm-1-5 {
         right: 20%;
         *right: 19.969%
-    }
-
-    .pure-push-sm-1-5 {
-        right: 20%;
-        *right: 19.969%
-    }    
-
-    .pure-pull-sm-5-24 {
-        right: 20.8333%;
-        *right: 20.8023%
     }
 
     .pure-pull-sm-5-24 {
