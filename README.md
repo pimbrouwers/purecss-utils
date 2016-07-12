@@ -40,7 +40,7 @@ Allows for hiding/showing content based on media breakpoints
 Boostrap-esque pushing and pulling, to offset columns.
 
 ```css
-.pure-push-{breakpoint}-{1-24}-{1-4} { }
+.pure-push-{breakpoint}-{1-24}-{1-24} { }
 ```
 
 ```html
