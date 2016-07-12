@@ -11,19 +11,19 @@ Allows for hiding/showing content based on media breakpoints
     }
 }
 
-@media screen and (min-width:35.5em) and (max-width:47.9em) {
+@media screen and (min-width:35.5em) and (max-width:47.999em) {
     .pure-hidden-sm {
         display: none !important
     }
 }
 
-@media screen and (min-width:48em) and (max-width:63.9em) {
+@media screen and (min-width:48em) and (max-width:63.999em) {
     .pure-hidden-md {
         display: none !important
     }
 }
 
-@media screen and (min-width:64em) and (max-width:79.9em) {
+@media screen and (min-width:64em) and (max-width:79.999em) {
     .pure-hidden-lg {
         display: none !important
     }
