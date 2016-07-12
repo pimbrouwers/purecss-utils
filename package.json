@@ -1,0 +1,9 @@
+{
+  "name": "yui-pure-css-extensions",
+  "version": "0.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "path": "0.12.7"
+  }
+}

@@ -1,14 +1,10 @@
-/*!
-Pure (Push/Pull Extension) v0.6.0
-Licesned under the BSD Licesne
-https://github.com/pimbrouwers/Pure-CSS-Push-Pull-Library/blob/master/LICENSE
-*/
+@import "_variables";
 
 div[class*="pure-pull"], div[class*="pure-push"]{ 
     position: relative;
 }
 
-@media screen and (min-width: 35.5em) {
+@media screen and (min-width: @sm-breakpoint) {
     .pure-push-sm-1-24 {
         left: 4.1667%;
         *left: 4.1357%
@@ -284,7 +280,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
     }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: @md-breakpoint) {
     .pure-push-md-1-24 {
         left: 4.1667%;
         *left: 4.1357%
@@ -322,6 +318,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
         *left: 29.1357%
     }
     .pure-push-md-1-3,
+    .pure-push-md-2-6,
     .pure-push-md-8-24 {
         left: 33.3333%;
         *left: 33.3023%
@@ -345,6 +342,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
         *left: 45.8023%
     }
     .pure-push-md-1-2,
+    .pure-push-md-2-4,
     .pure-push-md-12-24 {
         left: 50%;
         *left: 49.969%
@@ -475,6 +473,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
         *right: 45.8023%
     }
     .pure-pull-md-1-2,
+    .pure-pull-md-2-4,
     .pure-pull-md-12-24 {
         right: 50%;
         *right: 49.969%
@@ -546,7 +545,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
     }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: @lg-breakpoint) {
    .pure-push-lg-1-24 {
         left: 4.1667%;
         *left: 4.1357%
@@ -584,6 +583,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
         *left: 29.1357%
     }
     .pure-push-lg-1-3,
+    .pure-push-lg-2-6,
     .pure-push-lg-8-24 {
         left: 33.3333%;
         *left: 33.3023%
@@ -607,6 +607,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
         *left: 45.8023%
     }
     .pure-push-lg-1-2,
+    .pure-push-lg-2-4,
     .pure-push-lg-12-24 {
         left: 50%;
         *left: 49.969%
@@ -808,7 +809,7 @@ div[class*="pure-pull"], div[class*="pure-push"]{
     }
 }
 
-@media screen and (min-width: 80em) {
+@media screen and (min-width: @xl-breakpoint) {
     .pure-push-xl-1-24 {
         left: 4.1667%;
         *left: 4.1357%
@@ -1068,4 +1069,4 @@ div[class*="pure-pull"], div[class*="pure-push"]{
     .pure-pull-xl-24-24 {
         right: 100%
     }
-}
+}   
