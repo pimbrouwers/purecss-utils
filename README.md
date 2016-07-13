@@ -1,4 +1,4 @@
-# Pure-CSS-Push-Pull-Library
+# YUI Pure CSS Extensions
 Extension Library for YUI Pure CSS (www.purecss.io) designed to work purposefully with the default grid.
 
 ## Responsive Utilities
