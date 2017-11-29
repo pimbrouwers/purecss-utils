@@ -1,3 +1,5 @@
+> Note: Since PureCSS has been abandonned, please checkout [Hydrogen](https://github.com/pimbrouwers/HydrogenCSS) which has esstentially the same feature coverage as Pure as is being actively maintained!
+
 # YUI Pure CSS Extensions
 Extension Library for YUI Pure CSS (www.purecss.io) designed to work purposefully with the default grid.
 
