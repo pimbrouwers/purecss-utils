@@ -1,0 +1,9 @@
+$sm-min-breakpoint: 35.5em;
+$md-min-breakpoint: 48em;
+$lg-min-breakpoint: 64em;
+$xl-min-breakpoint: 80em;
+
+$xs-max-breakpoint: calc(#{$sm-min-breakpoint} - 1px);
+$sm-max-breakpoint: calc(#{$md-min-breakpoint} - 1px);
+$md-max-breakpoint: calc(#{$lg-min-breakpoint} - 1px);
+$lg-max-breakpoint: calc(#{$xl-min-breakpoint} - 1px);

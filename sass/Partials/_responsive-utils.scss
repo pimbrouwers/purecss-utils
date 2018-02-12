@@ -1,0 +1,30 @@
+@import "variables";
+
+.pure-hidden-xs {
+  @media screen and (max-width: $xs-max-breakpoint) {
+    display: none !important;
+  }
+}
+.pure-hidden-sm {
+  @media screen and (min-width: $sm-min-breakpoint) and (max-width: $sm-max-breakpoint) {
+    display: none !important;
+  }
+}
+
+.pure-hidden-md {
+  @media screen and (min-width: $md-min-breakpoint) and (max-width: $md-max-breakpoint) {
+    display: none !important;
+  }
+}
+
+.pure-hidden-lg {
+  @media screen and (min-width: $lg-min-breakpoint) and (max-width: $lg-max-breakpoint) {
+    display: none !important;
+  }
+}
+
+.pure-hidden-xl {
+  @media screen and (min-width: $xl-min-breakpoint) {
+    display: none !important;
+  }
+}
