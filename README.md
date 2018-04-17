@@ -1,7 +1,7 @@
-> Since PureCSS is no longer being maintained, please checkout [Hydrogen](https://pimbrouwers.github.io/hydrogen/) which has esstentially the same feature coverage as Pure as is being actively maintained!
-
 # YUI Pure CSS Extensions
 Extension Library for YUI Pure CSS (www.purecss.io) designed to work purposefully with the default grid.
+
+> Since PureCSS is no longer being maintained, please checkout [Hydrogen](https://pimbrouwers.github.io/hydrogen/) which has esstentially the same feature coverage as Pure as is being actively maintained!
 
 ## Responsive Utilities
 Allows for hiding/showing content based on media breakpoints
@@ -51,7 +51,7 @@ Boostrap-esque pushing and pulling, to offset columns.
 ```
 
 ## Flexbox Grid
-Flexbox powered grid. NOTE: This grid is missing certain fractional sets still. 
+Flexbox powered grid.
 
 ```html
 <div class="pure-g-flex">

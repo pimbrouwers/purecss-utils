@@ -1,8 +1,44 @@
 {
-  "name": "yui-pure-css-extensions",
-  "version": "0.0.0",
+  "name": "purecss-utils",
+  "version": "1.0.0",
+  "description": "Extesnion Library for YUI Pure CSS (www.purecss.io)",
+  "author": "Pim Brouwers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pimbrouwers/purecss-utils/issues"
+  },
+  "homepage": "https://github.com/pimbrouwers/purecss-utils#readme",
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-less": "^3.1.0"
-  }
+    "less": "latest",
+    "less-plugin-clean-css": "latest",
+    "ncp": "latest",
+    "npm-run-all": "latest",
+    "rimraf": "latest",
+    "watch": "latest"
+  },
+  "main": "./dist/purecss-utils.min.css",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "clean": "rimraf ./dist/*",
+    "css": "lessc ./src/purecss-utils.less ./dist/purecss-utils.css --source-map",
+    "min": "lessc --clean-css ./src/purecss-utils.less ./dist/purecss-utils.min.css --source-map",
+    "less": "npm-run-all --parallel css min",
+    "watch": "watch \"npm run less\" ./src/ --ignoreDotFiles --ignoreUnreadable",
+    "start": "npm-run-all clean less"
+  },
+  "keywords": [
+    "css",    
+    "pure css",
+    "yui pure css",
+    "pure css utils",
+    "yui pure css utils",
+    "pure css utilities",
+    "yui pure css utilities",
+    "pure css extensions",
+    "yui pure css extensions"
+  ]
 }
