@@ -1,7 +1,24 @@
 # YUI Pure CSS Extensions
+
+[![npm](https://img.shields.io/npm/v/purecss-utils.svg)](https://www.npmjs.com/package/purecss-utils)
+
 Extension Library for YUI Pure CSS (www.purecss.io) designed to work purposefully with the default grid.
 
 > Since PureCSS is no longer being maintained, please checkout [Hydrogen](https://pimbrouwers.github.io/hydrogen/) which has esstentially the same feature coverage as Pure as is being actively maintained!
+
+## Getting Started
+
+### CDN
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/purecss-utils"/>
+```
+
+### NPM
+
+```javascript
+npm install purecss-utils
+```
 
 ## Responsive Utilities
 Allows for hiding/showing content based on media breakpoints
